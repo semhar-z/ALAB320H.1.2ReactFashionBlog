@@ -1,11 +1,19 @@
 
 import './App.css';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Article from "./Components/Article";
 
-function App() {
+export default function App() {
   return (
     <>
+      
+      <Header/>
+      <Article/>
+      <Footer/>
+
     </>
   );
 }
 
-export default App;
+
