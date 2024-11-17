@@ -1,7 +1,8 @@
-export default function Nav() {
+import './nav.css';
+export default function Nav({ className }) {
     return (
     <>
-        <nav aria-label="main nav Navigation">
+        <nav aria-label="main nav Navigation" className={className}>
           <ul className="main-nav">
               <li> <a href="...">Women's</a></li> 
               <li> <a href="...">Men's</a></li> 
